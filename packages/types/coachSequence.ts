@@ -19,6 +19,7 @@ export interface CoachSequenceStop {
 export interface CoachSequenceProduct {
   number: string;
   type: string;
+  line?: string;
 }
 
 export interface CoachSequenceCoachSeats {
